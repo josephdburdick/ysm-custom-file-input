@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Custom File Input with jQuery, CSS3</title>
+		<meta name="description" content="the process of building a jQuery plugin to replace that ugly looking input with support for multiple files and a simple fallback for old browsers, IE9-8." />
+		<meta name="keywords" content="custom file upload, file upload button, jquery upload" />
+		<meta name="author" content="Author for Onextrapixel" />
+		<link rel="shortcut icon" href="../file/favicon.gif"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+
+		<!-- Edit Below -->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navi -->
+			<div class="nav-top clearfix">
+				<span class="right"><a class="nav-icon icon-th" href="http://www.onextrapixel.com/category/tutorials/"><span>View all Tutorials</span></a></span>
+				<span class="right"><a class="nav-icon icon-left" href="http://www.onextrapixel.com/2012/12/10/how-to-create-a-custom-file-input-with-jquery-css3-and-php/"><span>Back to Tutorial Article</span></a></span>
+			</div>
+
+			<div class="header">
+				<h1>Custom File Input with jQuery, CSS3 and PHP</h1>	
+			</div>
+		
+			<div class="main">
+	        	<div class="customfile-container">
+				  <label>File: </label>
+				  <input type="file" id="file" name="myfiles[]" multiple />
+				</div>
+	      	</div>
+		</div><!-- Container -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//modernizr.com/downloads/modernizr-latest.js"></script>
+	<script src="js/ysm-jquery-customUpload-field.js"></script>
+	<script>
+		$('input[type=file]').customFile();
+	</script>
+
+	</body>
+</html>
