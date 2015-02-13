@@ -5,7 +5,7 @@
     "Joe <josephdburdick@gmail.com>"
   ],
   "description": "Replace default file inputs with custom HTML/CSS",
-  "main": "index.html",
+  "main": "js/ysm-jquery-custom-file-input.js",
   "keywords": [
     "custom",
     "replace",
